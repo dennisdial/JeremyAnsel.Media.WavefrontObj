@@ -42,7 +42,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Equatable.Generator" Version="2.1.0" PrivateAssets="all" />
+    <PackageReference Include="Equatable.Generator" Version="2.2.1" PrivateAssets="all" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
@@ -50,7 +50,7 @@
   </ItemGroup>
     
   <ItemGroup Condition="'$(TargetFramework)' == 'net8.0'">
-    <PackageReference Include="Polyfill" Version="9.9.0">
+    <PackageReference Include="Polyfill" Version="10.11.2">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
